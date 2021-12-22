@@ -47,7 +47,7 @@ void e_couting_sort(long **in_array, long len_array){
 
 void e_couting_sort_min_max(long **in_array, long len_array, long min_value, long max_value){
 	
-	int* auxiliar_array = (int*)malloc(sizeof(int) * ((max_value+1)-min_value));
+    int* auxiliar_array = (int*)malloc(sizeof(int) * ((max_value+1)-min_value));
     
     for(int i = 0; i < (max_value + 1)-min_value; i++){
         
@@ -126,7 +126,7 @@ void e_couting_sort_naturalnumbers_max(long **in_array, long len_array, long max
     int k = 0;
     
     for(long i = 0; i < (max_value+1); i++){
-        for(int o = 0; o < jegue_array[i]; o++){
+        for(int o = 0; o < auxiliary_array[i]; o++){
             (*in_array)[k++] = i;
         }
     }
