@@ -10,7 +10,7 @@
 
 int main(){
 	
-	float average_time = 0;
+    float average_time = 0;
     
     long* caotic_array = (long*)malloc(sizeof(long)*ARRAY_LENGTH);
     
@@ -36,7 +36,7 @@ int main(){
     
     	begin = clock();
     
-    	jegue_sort(&caotic_array, ARRAY_LENGTH);
+    	e_couting_sort(&caotic_array, ARRAY_LENGTH);
     
     	end = clock();
     	
