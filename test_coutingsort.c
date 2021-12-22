@@ -49,6 +49,6 @@ int main(){
     
     
     
-    printf("Average tempo: %f\n",average_time/TEST_ROUNDS);
+    printf("Average time: %f\n",average_time/TEST_ROUNDS);
     
 }
